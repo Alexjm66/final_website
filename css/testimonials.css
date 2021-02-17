@@ -1,0 +1,141 @@
+#section4{
+    height: 100vh;
+}
+#sect4{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#test-head{
+    color: white;
+    padding-top: 8%;
+    font-size: 20px;
+}
+span hr{
+    color: #59f8e8;
+}
+/* Start of Carousel elements */
+#carousel {
+    display: grid;
+    grid-template-rows: 25fr 1fr;
+    grid-template-areas:
+      "leftCaret content rightCaret"
+      ".........bullets.........";
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+  }
+  /* End of carousel Elements */
+  
+  /* Start of carousel fonts */
+  #carousel-container h2,
+  #carousel-container h4 {
+    color: whitesmoke;
+  }
+
+  #carousel-container p{
+      color: white;
+  }
+  #carousel-container .carousel-img{
+    object-position: cover;
+}
+  
+  /* End of carousel fonts */
+  
+  /* Start of carousel carets */
+  #carousel #carousel-left,
+  #carousel #carousel-right {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 4em;
+    color: whitesmoke;
+    transition: all 0.2s linear;
+  }
+  
+  #carousel #carousel-left:hover,
+  #carousel #carousel-right:hover {
+    color: #59f8e8;
+  }
+  /* End of carousel carets */
+  
+  /* Start of carousel grid positioning */
+  #carousel #carousel-left {
+    grid-area: leftCaret;
+  }
+  
+  #carousel #carousel-right {
+    grid-area: rightCaret;
+  }
+  
+  #carousel #carousel-container {
+    grid-area: content;
+    position: relative;
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+  }
+  
+  #carousel #carousel-bullets {
+    grid-area: bullets;
+  }
+  /* End of carousel grid positioning */
+  
+  /* Start of carousel bullet styles */
+  #carousel-bullets .carousel-bullet {
+    background: none;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding: 2px;
+  }
+  
+  #carousel #carousel-bullets .fas.fa-circle {
+    transition: all 0.2s linear;
+  }
+  
+  #carousel #carousel-bullets .fas.fa-circle.active {
+    color: #59f8e8;
+  }
+  /* End of carousel bullet styles */
+  
+  /* Start of carousel slides styles */
+  .carousel-slide {
+    opacity: 0;
+    z-index: -2;
+    transition: all 0.2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .carousel-slide .carousel-img {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px auto;
+    /* margin-left: 104px;
+      margin-bottom: 63px; */
+  }
+  /* End of carousel slides styles */
+  
+  .fa-angle-right::before {
+    content: "\f105";
+    cursor: pointer;
+  }
+  
+  .fa-angle-left::before {
+    content: "\f104";
+    cursor: pointer;
+  }

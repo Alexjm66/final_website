@@ -1,0 +1,33 @@
+#section3 {
+  height: 100vh;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#project-head {
+  padding-top: 8%;
+  color: white;
+  font-size: 20px;
+}
+#project-main {
+  display: flex;
+  justify-items: center;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.image1 {
+  padding-right: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.image1-back {
+  text-align: center;
+  color: white;
+  font-size: medium;
+}
+.image2 {
+  padding-right: 10px;
+}
+span {
+  color: #59f8e8;
+}
