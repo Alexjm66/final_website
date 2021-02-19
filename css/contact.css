@@ -1,0 +1,42 @@
+
+#section5{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#contact-div{
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display:flex;
+    justify-content: space-between;
+}
+#contact{
+    color: #ffffff;
+    font-size:20px;
+    margin-left: 10%;
+}
+#empty-div{
+    padding-top: 3%;
+    display: flex;
+    justify-content:center;
+}
+.vl{
+    border-left: 6px solid #59f8e8;
+    height: 100px;
+}
+#contact-me{
+    margin-right: 5%;
+    font-size: 20px;
+    color: #ffffff;
+}
+span{
+    color: #59f8e8;
+}
+input{
+    width:385px;
+}
+
+
+

@@ -9,10 +9,10 @@ let bulletsContainer = document.getElementById('carousel-bullets');
 
 let slideContent = [
     {
-        title: "Thapelo ",
+        title: "Thapelo Tsotetsi ",
         subtitle: "Peer",
-        description: "Alexander is an honorable man and a diligent worker. He is always keen to help others without question. When a problem arises he displays good leadership skills and is capable of working well with others. Well mannered and cool-headed in all situations, Alexander displays all the qualities a prospective employer would be seeking.",
-        image: './images/Aashiq Adams (5).JPG'
+        description: "Alex is a hard-working individual who gives his best and takes advantage of any opportunity presented to him. Alex is always focused and willing to help others when the need arise. He has a very good eye as well as the implementation when it comes to UI/UX. He's communication skills are very good, he always ask questions when the user requirements are not clear.",
+        image: './images/thapelo-tsotetsi.jpg'
     },
     {
         title: "Aashiq Adams",
