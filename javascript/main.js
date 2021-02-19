@@ -10,7 +10,7 @@ let bulletsContainer = document.getElementById('carousel-bullets');
 let slideContent = [
     {
         title: "Thapelo Tsotetsi ",
-        subtitle: "Peer",
+        subtitle: "Lecturer",
         description: "Alex is a hard-working individual who gives his best and takes advantage of any opportunity presented to him. Alex is always focused and willing to help others when the need arise. He has a very good eye as well as the implementation when it comes to UI/UX. He's communication skills are very good, he always ask questions when the user requirements are not clear.",
         image: './images/thapelo-tsotetsi.jpg'
     },
