@@ -59,7 +59,7 @@ body {
 table{
   text-align: left;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 #education {
   color: white;

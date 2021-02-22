@@ -22,7 +22,7 @@
                 </div>
                 <div class="navbar">
                     <nav>
-                        <ul>
+                        <ul class="menu">
                             <li><a href="#section1">Home</a></li>
                             <li><a href="#section2">About</a></li>
                             <li><a href="#section3">Projects</a></li>
@@ -33,6 +33,18 @@
                 </div>
             </div>
         </header>
+        <div id="main-nav">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Clients</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+        </div>
+      
         <div id="home-content">
             <h2>Hello, I'm</h2>
             <h1>Alexander Maart</h1>
@@ -256,7 +268,6 @@
                     <textarea cols="40" rows="10" name="message" placeholder="Type your message"name="Message" ></textarea></br></br>
                     <button id="button" type="submit">Send Message</button>
                 </form>
-                
             </div>
            
         </div>
