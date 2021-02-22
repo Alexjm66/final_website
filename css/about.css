@@ -56,41 +56,14 @@ body {
   border-color: #59f8e8;
   padding-bottom: 2%;
 }
+table{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
 #education {
   color: white;
   font-size: 20px;
-}
-#subs {
-  display: flex;
-  margin-left: 10%;
-}
-#labels1 {
-  padding-top: 2%;
-  font-size: 20px;
-  display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.subjects {
-  margin-left: 13px;
-}
-#labels2 {
-  padding-top: 2%;
-  font-size: 20px;
-  display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#subs1 {
-  display: flex;
-  margin-left: 12%;
-}
-#subs2 {
-  margin-left: 5%;
-  display: flex;
-}
-.addon {
-  margin-left: 0px;
 }
 
 #myskills {

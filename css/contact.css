@@ -3,10 +3,10 @@
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/background2.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 105vh;
 }
 #contact-div{
-    padding-top: 3%;
+    padding-top: 1%;
     margin-left: 15%;
     margin-right: 15%;
     display:flex;
@@ -45,4 +45,11 @@ input{
 }
 #icons{
     padding-top: 10%;
+}
+#icon .info{
+    color: #ffffff;
+    font-size: 23px;
+}
+#icon a:hover {
+    color: #59f8e8
 }

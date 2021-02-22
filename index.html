@@ -74,59 +74,53 @@
                 </div>
             </div>
             <div id="div-border">
+               
                 <div id="education">
                     <div id="edu">
-                        <h1>My Education</h1>
+                        <h3>MY EDUCATION</h3>
                     </div>
-                    <div id="labels1">
-                        <div class="school">
-                            <label class="myinfo">School :</label>&nbsp;&nbsp;&nbsp;<label>Steenberg High School</label></br></br>
-                        </div>
-                        <div id="subs">
-                            <div>
-                                <label class="myinfo">Subjects :</label>
-                            </div>
-                            <div class="subjects">
-                                <label>English</label></br>
-                                <label>Mathematics</label></br>
-                                <label>Physical Science</label></br>
-                                <label>Life Science</label></br>
-                                <label>Geography</label></br>
-                                <label>Afrikaans</label></br>
-                                <label>Life Orientation</label></br>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="labels2">
-                        <div class="college">
-                            <label class="myinfo">College :</label>&nbsp;&nbsp;&nbsp;<label>False Bay College</label></br></br>
-                        </div>
-                        <div id="subs1">
-                            <div>
-                                <label class="myinfo">Subjects :</label>
-                            </div>
-                            <div class="subjects">
-                                <label>English</label></br>
-                                <label>Mathematics Literacy</label></br>
-                                <label>Computer Programming</label></br>
-                                <label>Systems Analysis & Design</label></br>
-                                <label>Data Communication & Networking</label></br>
-                                <label>Multimedia Services</label></br>
-                                <label>Life Orientation</label></br>
-                            </div>
-                        </div>
-                        <div id="subs2">
-                            <div>
-                                <label class="myinfo">Additional Training :</label>
-                            </div>
-                            <div class="addon">
-                                <label>Photoshop</label></br>
-                                <label>MS Office</label></br>
-                                <label>MySql</label></br>
-                                <label>Adobe Flash</label></br>
-                            </div>
-                        </div>
-                    </div>
+                    <table cellspacing="20">
+                        <tr>
+                            <th>SCHOOL</th>
+                            <th>SUBJECTS</th>
+                            <th>COLLEGE</th>
+                            <th>SUJECTS</th>
+                            <th>ADDITIONAL TRAINING</th>
+                        </tr>
+                        <tr>
+                            <td>Steenberg High School</td>
+                            <td>English</br>
+                                Afrikaans</br>
+                                Mathematics</br>
+                                Physical Science</br>
+                                Life Science</br>
+                                Geography</br>
+                                Life Orientation</br>
+                            </td>
+                                
+                            
+                            <td>False Bay College</td>
+                            <td>
+                                English</br>
+                                Life Orientation</br>
+                                MathematicS Literacy</br>
+                                Computer Programming</br>
+                                Systems Analysis & Design</br>
+                                Data Communication & Networking</br>
+                                Multimedia</br>
+                            </td>
+                            <td>
+                                Photoshop</br>
+                                Adobe Flash</br>
+                                Visual Studio</br>
+                                MySql</br>
+                                Html 5</br>
+                                Javascript</br>
+                                Flask</br>
+                                Python</br>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div id="myskills">
@@ -231,32 +225,35 @@
         
         <div id="contact-div">  
             <div id="icons">
-                <div id="icon1">
-                   <a href=> <i class="fa fa-envelope-o" style="font-size:50px;color:rgb(158, 158, 158)"></i></a>
+                <div id="icon">
+                   <i class="fa fa-envelope-o" style="font-size:50px;color:rgb(158, 158, 158)"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                    <label class="info">alexjmaart665@gmail.com</label></br></br>
                 </div>
-                <div id="icon2">
-                    <i id="icon" class="fa fa-github" style="font-size:48px;color:rgb(158, 158, 158)"></i>
-                    <label class="info">alexjmaart665@gmail.com</label></br></br>
+                <div id="icon">
+                    <a href="https://github.com/Alexjm66"><i id="icon" class="fa fa-github" style="font-size:48px;color:rgb(158, 158, 158)"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="info">Github Link</label></br></br>
                 </div>
-                <div id="icon3">
-                    <i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(158, 158, 158)"></i></br></br>
+                <div id="icon">
+                    <a href="https://www.linkedin.com/in/alexander-maart-037a361bb/"><i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(158, 158, 158)"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="info">Linkedin</label></br></br>
                 </div>
-                <div id="icon4">
-                    <i class="fa fa-phone" style="font-size:48px;color:rgb(158, 158, 158)"></i></br></br>
+                <div id="icon">
+                    <i class="fa fa-phone" style="font-size:48px;color:rgb(158, 158, 158)"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="info">0826073313</label></br></br>
                 </div>
             </div>
             <div id="contact-me">
                 <h3>HIRE <span>ME</span> </h3><br><br>
-                <form>
+                <form action="https://formspree.io/f/mjvpjalo"
+                method="POST">
                     <label>Name</label><br>
-                    <input type="text" id="name" placeholder="Enter name"></br></br>
+                    <input type="text" id="name" placeholder="Enter name" name="Name"></br></br>
                     <label>Surname</label><br>
-                    <input type="text" id="surname" placeholder="Enter surname"></br></br>
+                    <input type="text" id="surname" placeholder="Enter surname"name="Surname" ></br></br>
                     <label>Email</label><br>
-                    <input type="text" id="email" placeholder="Enter email"></br></br>
+                    <input type="text" id="email" placeholder="Enter email"name="Email"></br></br>
                     <label>Message</label></br>
-                    <textarea cols="40" rows="10" name="message" placeholder="Type your message"></textarea></br></br>
+                    <textarea cols="40" rows="10" name="message" placeholder="Type your message"name="Message" ></textarea></br></br>
                     <button id="button" type="submit">Send Message</button>
                 </form>
                 
