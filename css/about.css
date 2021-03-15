@@ -20,11 +20,6 @@ body {
   padding-top: 10%;
   padding-bottom: 2%;
 }
-/* #border-div {
-  border-left: solid;
-  border-color: #FB4D3D;
-  padding-bottom: 2%;
-} */
 #abt-content {
   display:flex;
   flex-wrap: wrap;

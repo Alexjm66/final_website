@@ -41,15 +41,29 @@ input{
 #button{
     width: 200px;
     font-size: 20px;
-    font-weight:bold
+    font-weight:bold;
+    height:30px;
+    background-color: #00A6ED;
+    color: #ffffff;
+    border-radius: 3px;
 }
 #icons{
-    padding-top: 10%;
+    padding-top: 8%;
 }
 #icon .info{
     color: #ffffff;
-    font-size: 23px;
+    font-size: 18px;
+    padding-left: 13px;
 }
-#icon a:hover {
-    color: #FB4D3D;
+.info1{
+    color: #ffffff;
+    padding-top: 5%;
+}
+#find{
+    display: flex;
+    justify-content: space-between;
+}
+#a{
+    padding-left: 10px;
+    padding-right: 15px;
 }
