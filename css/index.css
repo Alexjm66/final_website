@@ -26,7 +26,7 @@ html{
     margin-top: 2%;
 }
 .portfolio span{
-    color: #59F8E8;
+    color: #FB4D3D;
 }
 .navbar{
     margin-top: 2.5%;
@@ -44,7 +44,7 @@ nav a{
     font-weight: bold;
 }
 nav a:hover{
-    color: #59F8E8;
+    color: #FB4D3D;
 }
 #home-content{
     padding-top: 17%;
@@ -71,22 +71,22 @@ nav a:hover{
 }
 #buttons .btn1 {
     border: solid;
-    border-color: #59F8E8;
+    border-color: #FB4D3D;
     padding: 15px; 
     border-radius: 10px;
     margin-right: 1.5%;
 }
 #buttons .btn2 {
     border: solid;
-    border-color: #59F8E8;
+    border-color: #FB4D3D;
     padding: 15px;
     border-radius: 10px;
 }
 #buttons .btn1:hover{
-    background-color: turquoise;
+    background-color: #FB4D3D;
     color: black;
 }
 #buttons .btn2:hover{
-    background-color: turquoise;
+    background-color: #FB4D3D;
     color: black;
 }

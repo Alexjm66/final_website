@@ -20,17 +20,15 @@ body {
   padding-top: 10%;
   padding-bottom: 2%;
 }
-#border-div {
+/* #border-div {
   border-left: solid;
-  border-color: #59f8e8;
+  border-color: #FB4D3D;
   padding-bottom: 2%;
-}
+} */
 #abt-content {
-  padding-top: 1%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #sub-content {
   color: white;
@@ -50,16 +48,22 @@ body {
 .myinfo {
   font-weight: bold;
 }
-#div-border {
-  margin-top: 6%;
-  border-right: solid;
-  border-color: #59f8e8;
-  padding-bottom: 2%;
-}
 table{
   text-align: left;
   display: flex;
   justify-content: left;
+}
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 1%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+#edu{
+  text-align:center;
 }
 #education {
   color: white;
@@ -80,7 +84,7 @@ table{
   background-color: rgb(165, 165, 165);
   display: grid;
   height: 20px;
-  border: 1px solid rgb(#59f8e8);
+  border: 1px solid rgb(#FB4D3D);
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 0 10px #423b38e2;
@@ -88,7 +92,7 @@ table{
 .sbar span {
   height: 20px;
   float: left;
-  background-color: #59f8e8;
+  background-color: #FB4D3D;
 }
 .html {
   width: 90%;

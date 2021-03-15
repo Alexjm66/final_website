@@ -10,6 +10,7 @@
     <link type="text/css" href="css/testimonials.css" rel="stylesheet">
     <link type="text/css" href="css/contact.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/modal.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/6dcbff845d.js"></script>
 </head>
@@ -33,17 +34,6 @@
                 </div>
             </div>
         </header>
-        <!-- <div id="main-nav">
-            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                  <a href="#">About</a>
-                  <a href="#">Services</a>
-                  <a href="#">Clients</a>
-                  <a href="#">Contact</a>
-                </div>
-              </div>
-        </div> -->
       
         <div id="home-content">
             <h2>Hello, I'm</h2>
@@ -85,77 +75,98 @@
                     </div>
                 </div>
             </div>
-            <div id="div-border">
-               
-                <div id="education">
-                    <div id="edu">
-                        <h3>MY EDUCATION</h3>
-                    </div>
-                    <table cellspacing="20">
-                        <tr>
-                            <th>SCHOOL</th>
-                            <th>SUBJECTS</th>
-                            <th>COLLEGE</th>
-                            <th>SUJECTS</th>
-                            <th>ADDITIONAL TRAINING</th>
-                        </tr>
-                        <tr>
-                            <td>Steenberg High School</td>
-                            <td>English</br>
-                                Afrikaans</br>
-                                Mathematics</br>
-                                Physical Science</br>
-                                Life Science</br>
-                                Geography</br>
-                                Life Orientation</br>
-                            </td>
-                                
-                            
-                            <td>False Bay College</td>
-                            <td>
-                                English</br>
-                                Life Orientation</br>
-                                MathematicS Literacy</br>
-                                Computer Programming</br>
-                                Systems Analysis & Design</br>
-                                Data Communication & Networking</br>
-                                Multimedia</br>
-                            </td>
-                            <td>
-                                Photoshop</br>
-                                Adobe Flash</br>
-                                Visual Studio</br>
-                                MySql</br>
-                                Html 5</br>
-                                Javascript</br>
-                                Flask</br>
-                                Python</br>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <!-- Trigger/Open The Modal -->
+            <div id="modal-btn">   
+                <button id="myBtn"> Read more</button>
             </div>
+        
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="div-border">
+               
+                        <div id="education">
+                            <div id="edu">
+                                <h3>MY EDUCATION</h3>
+                            </div>
+                            <div class="table">
+                                <table cellspacing="20">
+                                    <tr>
+                                        <th>SCHOOL</th>
+                                        <th>SUBJECTS</th>
+                                        <th>COLLEGE</th>
+                                        <th>SUJECTS</th>
+                                        <th>ADDITIONAL TRAINING</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Steenberg High School</td>
+                                        <td>English</br>
+                                            Afrikaans</br>
+                                            Mathematics</br>
+                                            Physical Science</br>
+                                            Life Science</br>
+                                            Geography</br>
+                                            Life Orientation</br>
+                                        </td>
+                                            
+                                        
+                                        <td>False Bay College</td>
+                                        <td>
+                                            English</br>
+                                            Life Orientation</br>
+                                            MathematicS Literacy</br>
+                                            Computer Programming</br>
+                                            Systems Analysis & Design</br>
+                                            Data Communication & Networking</br>
+                                            Multimedia</br>
+                                        </td>
+                                        <td>
+                                            Photoshop</br>
+                                            Adobe Flash</br>
+                                            Visual Studio</br>
+                                            MySql</br>
+                                            Html 5</br>
+                                            Javascript</br>
+                                            Flask</br>
+                                            Python</br>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
             <div id="myskills">
                 <h1>My Skills</h1>
                 
                 <li>
                     <h3>HTML5</h3><span class="sbar"><span class="html"></span></span>
-                </li>
+                </li><br>
+
                 <li>
                     <h3>CSS 3</h3><span class="sbar"><span class="css"></span></span>
-                </li>
+                </li><br>
                 <li>
                     <h3>JAVASCRIPT</h3><span class="sbar"><span class="js"></span></span>
-                </li>
+                </li><br>
+                
                 <li>
                     <h3>PYTHON 3</h3><span class="sbar"><span class="python"></span></span>
-                </li>
+                </li><br>
+
                 <li>
                     <h3>FLASK</h3><span class="sbar"><span class="flask"></span></span>
-                </li>
+                </li><br>
                 <li>
                     <h3>MYSQL</h3><span class="sbar"><span class="mysql"></span></span>
-                </li>
+                </li><br>
             </div>
     </section>
     <section id="section3">
@@ -167,19 +178,19 @@
         
         <div id="project-main">
             <div class="image1">
-                <a href="https://repl.it/@Alexjm66/lottoprogram#README.md"><img src="images/lotto.jpg" width="400px" height="300px"></a>
+                <a href="https://repl.it/@Alexjm66/lottoprogram#README.md"><img class="image" src="images/lotto.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>Lottery<span> Project</span></h3>
                 </div>
             </div>
             <div class="image2">
-                <a href="https://alexander-calculator.netlify.app"><img src="images/calculator-385506_1920.jpg" width="400px" height="300px"></a>
+                <a href="https://alexander-calculator.netlify.app"><img class="image" src="images/calculator-385506_1920.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>Javascript Calculator<span> Project</span></h3>
                 </div>
             </div>
             <div class="image3">
-                <a href="https://repl.it/@Alexjm66/currencyconverter#README.md"><img src="images/coins-5548513_1920.jpg" width="400px" height="300px"></a>
+                <a href="https://repl.it/@Alexjm66/currencyconverter#README.md"><img class="image" src="images/coins-5548513_1920.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>Currency<span> Convertor</span></h3>
                 </div>
@@ -187,19 +198,19 @@
         </div>
         <div id="project-main">
             <div class="image1">
-                <a href="https://repl.it/@Alexjm66/temperature-convertor#README.md"><img src="images/thermometer-4294021_1920.jpg" width="400px" height="300px"></a>
+                <a href="https://repl.it/@Alexjm66/temperature-convertor#README.md"><img class="image" src="images/thermometer-4294021_1920.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>Temperature<span> Convertor</span></h3>
                 </div>
             </div>
             <div class="image2">
-                <a href=""><img src="images/shoes-5379215_1920.jpg" width="400px" height="300px"></a>
+                <a href=""><img class="image" src="images/shoes-5379215_1920.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>HTML EOM<span> Project</span></h3>
                 </div>
             </div>
             <div class="image3">
-                <a href="https://sweggawebsitealex.netlify.app"><img src="images/tablet-184888_1920.jpg" width="400px" height="300px"></a>
+                <a href="https://sweggawebsitealex.netlify.app"><img class="image" src="images/tablet-184888_1920.jpg" width="400px" height="300px"></a>
                 <div class="image1-back">
                     <h3>Javascript<span> Website</span></h3>
                 </div>
@@ -276,5 +287,6 @@
         </div>
     </section>
     <script src="javascript/main.js"></script>
+    <script src="javascript/modal.js"></script>
 </body>
 </html>

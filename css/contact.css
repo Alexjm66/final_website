@@ -23,7 +23,7 @@
     justify-content:center;
 }
 .vl{
-    border-left: 6px solid #59f8e8;
+    border-left: 6px solid #FB4D3D;
     height: 100px;
 }
 #contact-me{
@@ -32,7 +32,7 @@
     color: #ffffff;
 }
 span{
-    color: #59f8e8;
+    color: #FB4D3D;
 }
 input{
     width:385px;
@@ -51,5 +51,5 @@ input{
     font-size: 23px;
 }
 #icon a:hover {
-    color: #59f8e8
+    color: #FB4D3D;
 }
