@@ -90,3 +90,23 @@ nav a:hover{
     background-color: #FB4D3D;
     color: black;
 }
+@media only screen and (max-width: 768px) {
+    #section1{
+        height: 100vh;
+    }
+    nav a{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .portfolio{
+        font-size: 14px;
+    }
+    #home-content h1{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    #home-content h2{
+        font-size: 23px;
+    }
+
+}
