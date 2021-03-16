@@ -11,7 +11,7 @@
     margin-right: 15%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 #contact{
     color: #ffffff;
@@ -67,4 +67,12 @@ input{
 #a{
     padding-left: 10px;
     padding-right: 15px;
+}
+@media only screen and (max-width: 780px){
+    input{
+        width: 150px;
+    }
+    textarea{
+        width: 150px;
+    }
 }

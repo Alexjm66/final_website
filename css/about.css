@@ -52,7 +52,6 @@ table{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   padding: 1%;
   flex-grow: 1;
   flex-basis: 16%;
@@ -68,9 +67,10 @@ table{
 #myskills {
   color: white;
   margin-top: 6%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 12%;
+  margin-right: 12%;
   padding-bottom: 2%;
+  font-size: 20px;
 }
 #myskills li{
   list-style: none;
@@ -78,7 +78,7 @@ table{
 .sbar {
   background-color: rgb(165, 165, 165);
   display: grid;
-  height: 20px;
+  height: 8px;
   border: 1px solid rgb(#FB4D3D);
   border-radius: 3px;
   overflow: hidden;
@@ -159,5 +159,31 @@ table{
   }
   100% {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 780px){
+  h1{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  #abt-content{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #sub-content h1 {
+    font-size: 20px;
+  }
+  #sub-content p {
+    font-size: 15px;
+  }
+  #labels {
+    font-size: 15px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
   }
 }

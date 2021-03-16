@@ -92,14 +92,17 @@ nav a:hover{
 }
 @media only screen and (max-width: 768px) {
     #section1{
-        height: 100vh;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 2%;
     }
     nav a{
         font-size: 10px;
         font-weight: bold;
+        padding-inline-start: 2px;
     }
     .portfolio{
-        font-size: 14px;
+        font-size: 10px;
     }
     #home-content h1{
         font-size: 35px;
@@ -108,5 +111,11 @@ nav a:hover{
     #home-content h2{
         font-size: 23px;
     }
-
+    #home-content{
+        text-align: center;
+        padding-top: 100px;
+    }
+    #buttons{
+        padding-top: 100px;
+    }
 }
