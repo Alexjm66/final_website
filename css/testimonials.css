@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 span hr{
-    color: #59f8e8;
+    color: #FB4D3D;
 }
 /* Start of Carousel elements */
 #carousel {
@@ -55,7 +55,7 @@ span hr{
   
   #carousel #carousel-left:hover,
   #carousel #carousel-right:hover {
-    color: #59f8e8;
+    color: #FB4D3D;
   }
   /* End of carousel carets */
   

@@ -55,3 +55,12 @@
         cursor: pointer;
         
   }
+  @media only screen and (max-width: 780px){
+
+    #modal-btn button {
+      font-size: 12px;
+      font-weight: bold;
+      width: 100px;
+    }
+
+  }

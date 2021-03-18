@@ -23,22 +23,24 @@ body {
 #abt-content {
   display:flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 #sub-content {
   color: white;
   width: 50%;
   padding-top: 8%;
+  flex: 1 1 150px;
+  margin: 5px;
 }
 #sub-content h1 {
   font-size: 30px;
 }
 #sub-content p {
-  font-size: 20px;
+  font-size: 22px;
 }
 #labels {
   padding-top: 2%;
-  font-size: 20px;
+  font-size: 24px;
 }
 .myinfo {
   font-weight: bold;
@@ -55,6 +57,10 @@ table{
   padding: 1%;
   flex-grow: 1;
   flex-basis: 16%;
+}
+.box{
+  flex: 1 1 150px;
+  margin: 5px;
 }
 #edu{
   text-align:center;
@@ -163,9 +169,6 @@ table{
 }
 @media only screen and (max-width: 780px){
   h1{
-    font-size: 15px;
-  }
-  h3{
     font-size: 15px;
   }
   #abt-content{
