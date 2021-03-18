@@ -24,7 +24,7 @@ let slideContent = [
         title: "Laeeqah Esau",
         subtitle: "Peer",
         description: "Alex is very hardworking and always tries his best.He knows what to do if a problem arises.He is always willing to help a person when they need help with their code",
-        image: './images/myprofile-min.jpg'
+        image: './images/laeeqah.jpg'
     },
     {
         title: "Sandile Tukani",

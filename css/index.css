@@ -103,7 +103,8 @@ nav a:hover{
         margin-top: 0;
     }
     .portfolio{
-        font-size: 10px;
+        padding-top: 4px;
+        font-size: 8px;
     }
     #home-content h1{
         font-size: 35px;
