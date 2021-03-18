@@ -12,25 +12,25 @@ let slideContent = [
         title: "Thapelo Tsotetsi ",
         subtitle: "Lecturer",
         description: "Alex is a hard-working individual who gives his best and takes advantage of any opportunity presented to him. Alex is always focused and willing to help others when the need arise. He has a very good eye as well as the implementation when it comes to UI/UX. He's communication skills are very good, he always ask questions when the user requirements are not clear.",
-        image: './images/thapelo-tsotetsi.jpg'
+        image: './images/thapelo-tsotetsi-min.jpg'
     },
     {
         title: "Aashiq Adams",
         subtitle: "Peer",
         description: "Alexander is an honorable man and a diligent worker. He is always keen to help others without question. When a problem arises he displays good leadership skills and is capable of working well with others. Well mannered and cool-headed in all situations, Alexander displays all the qualities a prospective employer would be seeking.",
-        image: './images/Aashiq Adams (5).JPG'
+        image: './images/Aashiq Adams (5)-min.JPG'
     },
     {
         title: "Laeeqah Esau",
         subtitle: "Peer",
         description: "Alex is very hardworking and always tries his best.He knows what to do if a problem arises.He is always willing to help a person when they need help with their code",
-        image: './images/myprofile.jpg'
+        image: './images/myprofile-min.jpg'
     },
     {
         title: "Sandile Tukani",
         subtitle: "Peer",
         description: "Alexander: This is a well-mannered and inviting young man. He displays a good amount of maturity and determination with regards to his work. Alexander is easy to work with and makes it even fun to work with him through the day-to-day problems any programmer would be faced with.",
-        image: './images/sandile.png'
+        image: './images/sandile-min.png'
     },
 ]
 
