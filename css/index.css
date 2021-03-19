@@ -132,3 +132,11 @@ nav a:hover{
         font-weight: bold;
     }
 }
+@media only screen and (max-width: 1366px) {
+    #home-content h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    #home-content h2{
+        font-size: 20px;
+  }
