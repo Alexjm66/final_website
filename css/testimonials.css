@@ -88,6 +88,7 @@ span hr{
     outline: none;
     color: whitesmoke;
     padding: 2px;
+    padding-top: 15%;
   }
   
   #carousel #carousel-bullets .fas.fa-circle {
@@ -96,6 +97,7 @@ span hr{
   
   #carousel #carousel-bullets .fas.fa-circle.active {
     color: #FB4D3D;
+    
   }
   /* End of carousel bullet styles */
   
@@ -138,4 +140,9 @@ span hr{
   .fa-angle-left::before {
     content: "\f104";
     cursor: pointer;
+  }
+  @media only screen and (max-width: 780px){
+    #section4{
+      height: 115vh;
+    }
   }

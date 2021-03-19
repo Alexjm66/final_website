@@ -81,9 +81,19 @@ button:hover{
 }
 @media only screen and (max-width: 780px){
     input{
-        width: 150px;
+        width: 211px;
     }
     textarea{
-        width: 150px;
+        width: 100%;
+    }
+    .info1{
+        font-size: 18px;
+    }
+    .info2{
+        font-size: 18px;
+        padding-top: 5%;
+    }
+    .fa-envelope{
+        font-size: 18px;
     }
 }

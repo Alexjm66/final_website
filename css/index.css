@@ -92,7 +92,7 @@ nav a:hover{
 }
 @media only screen and (max-width: 768px) {
     #section1{
-        height: 100%;
+        height: 100vh;
         width: 100%;
         padding-bottom: 2%;
     }
@@ -118,6 +118,17 @@ nav a:hover{
         padding-top: 100px;
     }
     #buttons{
-        padding-top: 100px;
+        padding-top: 70px;
+    }
+    #buttons{
+        display: flex;
+        justify-content: center;
+        margin-right: 32px;
+    }
+    #buttons a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
     }
 }
